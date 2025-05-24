@@ -56,8 +56,6 @@ This repository contains Python scripts designed to be used for manufacturing ti
 ```bash
 pip install tkinter pyvisa pandas openpyxl numpy matplotlib ttkthemes Pillow winsound psutil zeroconf pyvisa-py
 ```
-   * Limitation 
-   It must be noted that when decreasing the logging time, down to 10ms, this will increase the plotting time, but will hold no bearing on the logging on exporting the file in JSON, CSV or XlSX.
 
 Having only had access to one power supply I can only assure success with the RIGOL DP 811A power supplu
 
@@ -119,6 +117,8 @@ pip install PyQt5 Pillow numpy numpy-stl pyvista pyvistaqt
 ![Screenshot showing a 3D model in the PyVista viewer](images/stl_viewer_model.png)
 
 
+#  Limitations
+   * It must be noted that when using the power supply controller, decreasing the logging time, down to 10ms, this will increase the plotting time, but will hold no bearing on the logging on exporting the file in JSON, CSV or XlSX.
 
 
 
