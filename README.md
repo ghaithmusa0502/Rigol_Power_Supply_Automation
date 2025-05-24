@@ -120,5 +120,14 @@ pip install PyQt5 Pillow numpy numpy-stl pyvista pyvistaqt
 #  Limitations
    * It must be noted that when using the power supply controller, decreasing the logging time, down to 10ms, this will increase the plotting time, but will hold no bearing on the logging on exporting the file in JSON, CSV or XlSX.
 
+# Notes
+Chances are, if you are using these programs, it’s because you are doing the electrochemical etching project, so if you're doing this project after me (after 2024/25).
+The parameters I had the most success with Nickel were the Constant voltage- 0.5 mols of HCL, 4V, 0.5 amps with a threshold of 0.09 amps. 
+For tungsten, I had less time but Constant voltage- 2 mols of NaOH, 9V, 1 amp with a threshold of 0.032 amps. 
+If I were you, and if I had more time, I’d experiment with the Constant current setting. From my brief experiments, it seemed to have potential and produce smoother tips. 
+Other than that, there’s nothing else I can give you! Anyway, good luck! I hope you enjoy this project! And book as many sessions as possible. You gonna need them.
+Final note, don’t get better tips than me!
+
+
 
 
