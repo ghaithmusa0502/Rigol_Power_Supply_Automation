@@ -70,26 +70,20 @@ Having only had access to one power supply, I can only assure success with the R
 ### Real-time Plotting
 ![Screenshot showing real-time voltage and current plots](images/power_supply_plots.png)
 
-### Image to STL Conversion
-![Screenshot of the Image to STL converter with image loaded](images/stl_converter_main.png)
-
-### 3D Model Viewer
-![Screenshot showing a 3D model in the PyVista viewer](images/stl_viewer_model.png)
-
 
 #  Limitations
-   * It must be noted that when using the power supply controller, decreasing the logging time, down to 10ms, this will increase the plotting time, but will hold no bearing on the logging on exporting the file in JSON, CSV or XlSX.
+   * It must be noted that when using the power supply controller, decreasing the logging time, down to 10ms, this will increase the plotting time, but will hold no bearing on the logging or exporting the file in JSON, CSV or XLSX.
 
 # Notes
 Chances are, if you are using these programs, it’s because you are doing the electrochemical etching project, so if you're doing this project after me (after 2024/25).
 
-The parameters I had the most success with Nickel were the Constant voltage- 0.5 mols of HCL, 4V, 0.5 amps with a threshold of 0.09 amps with this parameter i got like sub-100nm radius of curvature.
+The parameters I had the most success with Nickel were the Constant voltage- 0.5 mols of HCL, 4V, 0.5 amps, with a threshold of 0.09 amps with this parameter, I got like sub-100nm radius of curvature.
 
 For tungsten, I had less time but... Constant voltage- 2 mols of NaOH, 9V, 1 amp with a threshold of 0.032 amps, I got like 100nm average radius of curvature.
 
 If I were you, and if I had more time, I’d experiment with the Constant current setting. From my brief experiments, it seemed to have potential and produce smoother tips.
 
-Lowk this was more a coding project than a lab project, considering how much time I spent doing this instead of being in a Lab XD! And all this work to make it look good for a person I don't know XD! 
+Lowk for me this was more a coding project than a lab project, considering how much time I spent doing this instead of being in a Lab XD! And all this work to make it look good for a person I don't know XD! 
 
 Anyway, other than that, there’s nothing else I can give you! Anyway, good luck! I hope you enjoy this project! And book as many sessions as possible. You gonna need them.
 
