@@ -1,6 +1,6 @@
 # Rigol Power Supply Automation and logging script
 
-This repository contains Python scripts designed to be used for manufacturing tip etching and examining TIFF STM outputs 
+This repository contains Python scripts designed to be used for manufacturing tip etching.
 
 ## Scripts
 
