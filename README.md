@@ -175,7 +175,7 @@ Having only had access to one power supply, I can only assure success with the R
 
 ## Notes
 
-Chances are, if you are using these programs, it’s because you are doing an electrochemical etching project. So, if you're doing this project after me (after 2024/25), here are some parameters I found successful:
+Chances are, if you are using these programs, it’s because you are doing the electrochemical etching project. So, if you're doing this project after me (after 2024/25), here are some parameters I found successful:
 
 * **For Nickel Constant Voltage:** I spent the most time here: 0.5 M HCl, 4V, 0.5 amps, with a threshold of 0.09 amps. With these parameters, I achieved a sub-100nm radius of curvature.
 
