@@ -165,7 +165,7 @@ Having only had access to one power supply, I can only assure success with the R
 ![Screenshot of the Power Supply Control Tab 2](images/power_supply_control_tab_2.png)
 
 ### Power Supply Settings Tab 
-![Screenshot of the Power Supply Settings Tab](images/power_supply_control_tab_2.png)
+![Screenshot of the Power Supply Settings Tab](images/power_supply_Settings.png)
 
 ### Real-time Plotting
 ![Screenshot showing real-time voltage and current plots](images/power_supply_plots.png)
