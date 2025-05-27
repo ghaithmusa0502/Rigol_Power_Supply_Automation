@@ -177,10 +177,14 @@ Having only had access to one power supply, I can only assure success with the R
 
 Chances are, if you are using these programs, it’s because you are doing an electrochemical etching project. So, if you're doing this project after me (after 2024/25), here are some parameters I found successful:
 
-* **For Nickel:** Constant voltage setting - 0.5 M HCl, 4V, 0.5 amps, with a threshold of 0.09 amps. With these parameters, I achieved a sub-100nm radius of curvature.
+* **For Nickel Constant Voltage:** - 0.5 M HCl, 4V, 0.5 amps, with a threshold of 0.09 amps. With these parameters, I achieved a sub-100nm radius of curvature.
 
-* **For Tungsten:** Less time was spent on this, but here are the parameters: Constant voltage setting - 2 M NaOH, 9V, 1 amp with a threshold of 0.032 amps. This yielded an average radius of curvature around 100nm.
+* **For Nickel Constant Current:** - 0.5 M HCl, 12V, 0.1 amps, with a Voltage limit of 6 Volts.
+  
+* **For Tungsten Constant Voltage:** Less time was spent on this, but here are the parameters - 2 M NaOH, 9V, 1 amp with a threshold of 0.032 amps.  With these parameters, I achieved a sub-100nm radius of curvature.
 
+*  **For Tungsten Constant Current:** Less time was spent on this, but here are the parameters - 2 M NaOH, 15V, 0.1 amp with a voltage limit of 12.004 Volts
+ 
 If I had more time, I would experiment with the Constant Current setting. From my brief experiments, it seemed to have potential and produce smoother tips.
 
 Honestly, for me, this was more a coding project than a lab project, considering how much time I spent doing this instead of being in the Lab XD! And all this work to make it look good for a person I don't know XD!
