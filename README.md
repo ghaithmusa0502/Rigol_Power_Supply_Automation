@@ -4,7 +4,7 @@ This repository contains Python scripts designed for use in manufacturing tip et
 
 ## Scripts
 
-### 1. `Power Supply Stopper.py`
+### 1. `Power_Supply_Stopper.py`
 
 * **Purpose:** This script provides a comprehensive Tkinter-based GUI for controlling a programmable power supply. It offers advanced features, including preset management, configurable export formats, detailed logging, and a more interactive user experience for electrochemical etching experiments.
 
