@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Power Supply Stopper - A Tkinter application for controlling and logging data
 from a programmable DC power supply, with automatic stop conditions.
