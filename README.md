@@ -2,11 +2,11 @@
 
 This repository contains Python scripts designed for use in manufacturing tip etching, specifically for controlling a Rigol DP811A power supply (though the core logic can be adapted for other VISA-compatible instruments).
 
-## Scripts
+## Script
 
-### 1. Power_Supply_Stopper.py
+### Power_Supply_Stopper.py
 
-This script offers a comprehensive Tkinter-based GUI for controlling a programmable power supply. It includes advanced features such as preset management, configurable export formats, detailed logging, and an interactive user experience for electrochemical etching experiments.
+This script provides a comprehensive Tkinter-based graphical user interface (GUI) for controlling a programmable power supply. It includes advanced features such as preset management, configurable export formats, detailed logging, and an interactive user experience for electrochemical etching experiments.
 
 ## Key Features
 
@@ -78,7 +78,7 @@ pip install pyvisa pandas openpyxl numpy matplotlib ttkthemes Pillow psutil zero
 
 ### Operation:
 1. Click "Start Logging" - The application will switch to the "Plots" tab
-2. Click "Stop Logging" to end the experiment - Data will be exported according to the selected format and settings
+2. Click "Stop Logging" to end the experiment. Data will be exported according to the selected format and settings
 3. The "Log" tab shows a history of operations and events
 
 ## Code Architecture
@@ -98,18 +98,18 @@ Helper class creating transient pop-up windows with descriptive text when hoveri
 
 #### 4. ConfigManager Class
 Manages persistent storage and retrieval of application settings and user-defined presets:
-- **Initialization:** Sets up default configuration values and loads existing settings
+- **Initialisation:** Sets up default configuration values and loads existing settings
 - **Configuration Management:** `load_config()` and `save_config()` methods
 - **Preset Management:** Methods for saving, loading, and managing groups of settings
 - **Notes Management:** Handles user notes stored within the main configuration
 
 #### 5. DataManager Class
-Efficiently manages collected data points using `collections.deque` for optimized real-time plotting performance.
+Efficiently manages collected data points using `collections.deque` for optimised real-time plotting performance.
 
 #### 6. DataLogger Class
 Critical component for power supply interaction and data acquisition:
-- **Connection Management:** Establishes VISA connection or simulation mode
-- **Data Acquisition:** Runs in separate thread for GUI responsiveness
+- **Connection Management:** Establishes a VISA connection or simulation mode
+- **Data Acquisition:** Runs in a separate thread for GUI responsiveness
 - **Export Functions:** Static methods for CSV, Excel, and JSON export with embedded metadata
 
 #### 7. PowerLoggerApp Class
@@ -135,7 +135,7 @@ When decreasing the logging time down to 10ms, plotting time increases, but this
 
 ## Experimental Notes
 
-These programs are particularly useful for electrochemical etching projects. Below are some successful parameters found during testing:
+These programs are beneficial for electrochemical etching projects. Below are some successful parameters found during testing:
 
 ### Nickel Etching
 - **Constant Voltage:** 0.5 M HCl, 4V, 0.5 amps, with a threshold of 0.09 amps
