@@ -151,4 +151,4 @@ These programs are beneficial for electrochemical etching projects. Below are so
 
 ## Final Note
 
-Don't get better tips than me! 😄
+Don't get better tips than me!
