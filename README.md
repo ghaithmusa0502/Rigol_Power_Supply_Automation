@@ -125,13 +125,13 @@ Main Tkinter application coordinating GUI and all other components:
 *Note: Success is assured only with the RIGOL DP 811A power supply, as it was the only one available for testing.*
 
 ### Power Supply Control Tab 1
-![Screenshot](images/screenshot.png)
+![Screenshot](images/Screenshot.png)
 ### Power Supply Control Tab 2  
-![Screenshot](images/screenshot_2.png)
+![Screenshot](images/Screenshot 2.png)
 ### Power Supply Settings Tab
-![Screenshot](images/screenshot_3.png)
+![Screenshot](images/Screenshot 3.png)
 ### Real-time Plotting
-![Screenshot](images/screenshot4.png)
+![Screenshot](images/Screenshot 4.png)
 
 
 ## Limitations
