@@ -127,11 +127,11 @@ Main Tkinter application coordinating GUI and all other components:
 ### Power Supply Control Tab 1
 ![Screenshot](images/Screenshot.png)
 ### Power Supply Control Tab 2  
-![Screenshot](images/Screenshot 2.png)
+![Screenshot](images/Screenshot2.png)
 ### Power Supply Settings Tab
-![Screenshot](images/Screenshot 3.png)
+![Screenshot](images/Screenshot3.png)
 ### Real-time Plotting
-![Screenshot](images/Screenshot 4.png)
+![Screenshot](images/Screenshot4.png)
 
 
 ## Limitations
