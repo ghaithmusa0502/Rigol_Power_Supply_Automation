@@ -139,8 +139,11 @@ Main Tkinter application coordinating GUI and all other components:
 When decreasing the logging time down to 10ms, plotting time increases, but this does not affect the logging or export process for JSON, CSV, or XLSX formats.
 
 ## Experimental Notes
+If the error:  VI_ERROR_INV_OBJECT (-1073807346): The given session or object reference is invalid.
+Just plug in the power supply and click scan again. This should resolve the error.
 
-These programs are beneficial for electrochemical etching projects. Below are some successful parameters found during testing:
+
+These programs were created with the primary use of electrochemical etching projects. Below are some successful parameters found during testing:
 
 ### Nickel Etching
 - **Constant Voltage:** 0.5 M HCl, 4V, 0.5 amps, with a threshold of 0.09 amps
