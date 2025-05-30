@@ -139,7 +139,8 @@ Main Tkinter application coordinating GUI and all other components:
 When decreasing the logging time down to 10ms, plotting time increases, but this does not affect the logging or export process for JSON, CSV, or XLSX formats.
 
 ## Experimental Notes
-If the error:  VI_ERROR_INV_OBJECT (-1073807346): The given session or object reference is invalid.
+If the error:  `VI_ERROR_INV_OBJECT (-1073807346): The given session or object reference is invalid.`
+
 Just plug in the power supply and click scan again. This should resolve the error.
 
 
